@@ -1,0 +1,281 @@
+/* TABLE OF CONTENTS */
+/* ------------------
+1. General
+2. Navbar
+3. Banner  
+4. Best Deals
+5. Donate 
+6. Footer
+-------------------- */
+
+/*1.General*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* Background Color */
+    --bg-red: #d3282e;
+    --bg-white: #fff;
+    --bg-light-white: #f6f7f8;
+    --bg-yellow: #fdd800;
+    --bg-green: #009900;
+    --bg-black: #1f1f1f;
+
+    /* Text Color */
+    --text-black: #1f1f1f;
+    --text-white: #fff;
+    --text-red: #d3282e;
+    --text-green: #009900;
+    --text-yellow: #fdd800;
+
+    /* Fonts */
+    --primary-font: 'Great Vibes', cursive;
+    --secondary-font: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--secondary-font);
+    background-color: var(--bg-white);
+}
+
+.text-red{
+    color:var(--text-red);
+}
+.text-green{
+    color: var(--text-green);
+}
+.bg-red{
+    background-color:var(--bg-red) !important;
+}
+.bg-light-white{
+    background-color:var(--bg-light-white) !important;
+}
+.bg-green{
+    background-color:var(--bg-green) !important;
+}
+
+h1{
+    font-size:100px;
+    font-family: var(--primary-font);
+    letter-spacing:5px;
+    font-weight: 500;
+    color:var(--text-white);
+}
+h2{
+    font-size: 80px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: var(--primary-font);
+
+}
+h3{
+    font-size:55px; 
+    letter-spacing:2px;
+    font-weight: 500;
+    color:var(--text-white);
+    margin-bottom:15px;
+    font-family: var(--secondary-font);
+}
+h4{
+    font-family: var(--secondary-font);
+    font-size:30px; 
+    letter-spacing:1px;
+    font-weight: 500;
+    color:var(--text-white);
+    margin-bottom:15px;
+}
+h5{
+    font-size:24px; 
+    letter-spacing:2px;
+    font-weight: 500;
+    color:var(--text-white);
+    margin-bottom:15px;
+}
+p{
+    margin-top:5px;
+    margin-bottom:1rem;
+    font-size:19px;
+    font-weight: 300;
+    line-height:normal;
+    color:var(--text-white);
+    font-family: auto;
+    letter-spacing: 2px;
+}
+
+/*Navbar*/
+.navbar{
+    background-color: #41383270;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+
+}
+.navbar-nav li a{
+    color:var(--text-white)!important;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.header .nav-item{
+	margin: 0 10px;
+}
+
+.header .nav-item .nav-link{
+    font-size:22px;
+    font-weight: 700;
+    color:var(--text-light-white);
+    line-height: 1;
+    font-family:monospace;
+}
+
+.header .nav-item .nav-link .active{
+    color:var(--text-yellow);
+}
+
+#a a:hover{
+	color: cyan !important;
+}
+.active{
+    color: cyan !important;
+}
+
+
+/*Banner*/
+
+.carousel-caption{
+    bottom: 3.5rem;
+}
+
+.carousel-indicators [data-bs-target]{
+    width:12px;
+    height:4px;
+    border-radius: 20%;
+    background-color:var(--bg-light-white) !important;
+}
+
+.aboutus{
+    background-image: url(../images/3.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center; 
+    background-size: cover;
+}
+#header {
+    text-align: left;
+    line-height: 80px;
+    letter-spacing: 0;
+    margin-top: 62px;
+    margin-bottom: 34px;
+    padding: 0 51px;
+}
+
+.section-10.pinkbg.pinkbgmod {
+    background-image: url(https://thumbs.dreamstime.com/b/coffee-croissant-seamless-pattern-background-vector-food-design-icons-hand-drawing-elements-graphic-texture-restaurant-68088453.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contactus{
+    background-image: url(https://img.freepik.com/free-vector/contact-us-concept-landing-page_52683-12860.jpg?w=2000);
+    width: 100%;
+    height: 650px;
+    background-position: center; 
+    background-size: cover;
+}
+
+.texta{
+    text-align: justify;
+}
+
+.desc{
+    background-image: url(https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?cs=srgb&dl=pexels-pixabay-260922.jpg&fm=jpg);
+    width: 100%;
+    /*height: 500px;*/
+    padding-right: 0!important;
+    padding-left: 0!important;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+.ourmenu{
+    padding: 0;
+    margin: 0;
+}
+
+.form-control{
+    border-radius: 0%;
+    border: 2px solid green;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.footer{
+    width:100%;
+    height:auto;
+    background-image:url(https://t3.ftcdn.net/jpg/02/34/50/46/360_F_234504608_hh2sThcrZETshikECMbKckmy3yeiGqlo.jpg);
+    background-position: center; 
+    background-size: cover;
+}
+
+
+.footer .block_newsletter input{
+    border-radius: 25px;
+    height:50px;
+}
+.footer .block_newsletter input:focus,
+.footer .block_newsletter button{
+    outline:none;
+    box-shadow: none;
+}
+.footer .block_newsletter button{
+    font-size: 14px;
+    font-weight: 400;
+    padding:15px 20px;
+    height:50px;
+    line-height: 20px;
+    border-radius: 25px;
+    background-color:var(--bg-red);
+    border-color:var(--bg-red);
+    color:var(--text-white);
+    text-transform: uppercase;
+}
+
+.footer ul li a{
+    font-size: 15px;
+    color:var(--text-white);
+    line-height: 30px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.footer .footer_social_media_icon{
+    padding:0;
+    border-radius: 50%;
+    height:34px; 
+    text-align: center;
+    width:34px;
+    margin:0 10px 10px 0;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    background-color:var(--bg-white);
+    color:var(--text-black);
+    text-decoration: none;
+}
+
+.footer .footer_social_media_icon:hover{
+    background-color:var(--bg-red);
+    color:var(--text-white);
+}
+
+

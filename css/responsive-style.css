@@ -1,0 +1,117 @@
+@media(max-width: 1300px){
+	h1{
+		font-size: 60px;
+	}
+	h2{
+		font-size: 50px;
+	}
+	h3{
+		font-size: 45px;
+	}
+	p{
+		font-size: 15px;
+	}
+	.header .menu-navbar-nav{
+		width: auto;
+	}
+	.aboutus{
+		height: 550px;
+	}
+	.contactus{
+		height: 550px;
+	}
+}
+@media(max-width: 1230px){
+	.header .nav-item{
+		margin: 0 5px;
+	}
+	/*.banner{
+		padding: 50px 0 10px;
+	}*/
+}
+@media(max-width: 1070px){
+	.header .nav-item .nav-link{
+		font-size: 16px;
+	}
+	p{
+		font-size: 14px;
+	}
+	.carousel-caption{
+		bottom: 1.25rem;
+	}
+}
+@media(max-width: 992.5px){
+	h1{
+		font-size: 55px;
+	}
+	h2{
+		font-size: 45px;
+	}
+	h3{
+		font-size: 35px;
+	}
+	h4{
+		font-size: 18px;
+	}
+	p{
+		font-size: 12px;
+	}
+	.aboutus{
+		height: 500px;
+	}
+	.header .navbar-brand img{
+        width:180px;
+    }
+    .header .navbar-toggler:focus{
+        box-shadow: none;
+    } 
+    .header .menu-navbar-nav{
+        text-align: center;
+    }
+    .header .nav-item .nav-link{
+        margin-top:15px;
+    }
+}
+@media(max-width: 767px){
+	h1{
+		font-size: 45px;
+	}
+	.abc{
+		font-size: 10px;
+	}
+	.aboutus{
+		height: 480px;
+	}
+	.contactus{
+		height: 480px;
+	}
+}
+@media(max-width: 610px){
+	h1{
+		font-size: 35px;
+	}
+	h2{
+		font-size: 38px;
+	}
+	h3{
+		font-size: 30px;
+	}
+	p{
+		font-size: 11px;
+	}
+	.banner{
+		padding-top: 90px;
+	}
+	.banner .carousel-caption{
+		bottom: -0.25rem;
+	}
+	.banner .carousel-inner{
+		height: 200px;
+	}
+	.banner .carousel-item{
+		height: 100%;
+	}
+	.banner .carousel-indicators{
+		bottom: -20px;
+	}
+}
